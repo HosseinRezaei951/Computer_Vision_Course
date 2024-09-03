@@ -46,6 +46,7 @@ The project is organized into the following sub-directories and files:
 This task involves computing the second derivative of a 1D Gaussian function and comparing it with the difference of Gaussians (DoG) for various scaling factors. The comparison helps in understanding the approximation of the second derivative by the DoG function.
 
 - **1D Gaussian Function**:
+
   ![alt text](https://github.com/HosseinRezaei951/Computer_Vision_Course/blob/main/Exercises/Q1/results/1.jpg)
 
 - **Second Derivative and Difference of Gaussians**:
@@ -56,9 +57,11 @@ This task involves computing the second derivative of a 1D Gaussian function and
 The objective is to design a filter that detects diagonal edges in a given image. The designed 3x3 filter is applied to the image, and the output is analyzed to ensure the filter responds maximally to diagonal lines.
 
 - **Original Image**:
+
   ![alt text](https://github.com/HosseinRezaei951/Computer_Vision_Course/blob/main/Exercises/Q2/data/diagonal.png)
 
 - **Filtered Image**:
+
   ![alt text](https://github.com/HosseinRezaei951/Computer_Vision_Course/blob/main/Exercises/Q2/results/1.jpg)
   
   The filter is designed to highlight diagonal edges, and the results demonstrate its effectiveness in detecting the boundaries of diagonal lines.
@@ -68,12 +71,16 @@ The objective is to design a filter that detects diagonal edges in a given image
 In this task, an image is transformed into the frequency domain using the Fourier Transform, and its energy bandwidth is analyzed. The image is then sampled at different rates and reconstructed using nearest-neighbor and linear interpolation methods. The impact of different sampling rates and interpolation methods on image quality is demonstrated.
 
 - **Original Image**:
+
   ![alt text](https://github.com/HosseinRezaei951/Computer_Vision_Course/blob/main/Exercises/Q4/results/2.jpg)
 
 - **Reconstructed Images**:
   - Nearest Neighbor Interpolation:
+
     ![alt text](https://github.com/HosseinRezaei951/Computer_Vision_Course/blob/main/Exercises/Q4/results/2.jpg)
+
   - Linear Interpolation:
+
     ![alt text](https://github.com/HosseinRezaei951/Computer_Vision_Course/blob/main/Exercises/Q4/results/3.jpg)
     
   These images show the effects of different interpolation methods and sampling rates on image reconstruction quality.
