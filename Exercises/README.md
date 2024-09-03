@@ -90,9 +90,11 @@ In this task, an image is transformed into the frequency domain using the Fourie
 The goal is to remove noise from an image using frequency domain filtering techniques. Notch filters are applied to the Fourier spectrum of the noisy image to eliminate specific frequencies responsible for the noise, resulting in a cleaner image.
 
 - **Noisy Image**:
+
   ![alt text](https://github.com/HosseinRezaei951/Computer_Vision_Course/blob/main/Exercises/Q5/data/noiseball.png)
 
 - **Filtered Image**:
+
   ![alt text](https://github.com/HosseinRezaei951/Computer_Vision_Course/blob/main/Exercises/Q5/results/1.jpg)
 
   The filtered image demonstrates the effectiveness of the notch filters in removing noise from the image.
